@@ -47,4 +47,4 @@ jobs:
       # amend_commit: false
       # parse_args: ""   # 例: "tiny18:''"
       # draw_args: ""    # 例: "tiny18:'--dts-layout zephyr/<path>.dts'"
-      token: ${{ secrets.PAT1 }}
+      token: ${{ secrets.GH_PAT }}
