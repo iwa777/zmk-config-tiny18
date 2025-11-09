@@ -48,37 +48,19 @@
 
         z {
             bindings = <&kp Z>;
-            key-positions = <6 7>;
+            key-positions = <15 7>;
             layers = <0>;
         };
 
         x {
             bindings = <&kp X>;
-            key-positions = <6 8>;
+            key-positions = <15 8>;
             layers = <0>;
         };
 
         c {
             bindings = <&kp C>;
-            key-positions = <6 9>;
-            layers = <0>;
-        };
-
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <13 10>;
-            layers = <0>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <13 11>;
-            layers = <0>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <13 12>;
+            key-positions = <15 9>;
             layers = <0>;
         };
 
@@ -88,15 +70,33 @@
             layers = <0>;
         };
 
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <16 10>;
+            layers = <0>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <16 11>;
+            layers = <0>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 12>;
+            layers = <0>;
+        };
+
         jp_caps {
             bindings = <&kp JP_CAPS>;
-            key-positions = <6 13>;
+            key-positions = <2 3>;
             layers = <0>;
         };
 
         repeat {
             bindings = <&key_repeat>;
-            key-positions = <14 17>;
+            key-positions = <9 10>;
             layers = <0>;
         };
 
