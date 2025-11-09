@@ -137,7 +137,7 @@
         };
 
         jp_bslh {
-            bindings = <&kp JP_BSLH>;
+            bindings = <&kp LA(INT3)>;
             key-positions = <8 9>;
             layers = <1>;
         };
