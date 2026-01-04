@@ -70,8 +70,8 @@
             layers = <0>;
         };
 
-        esc {
-            bindings = <&kp ESCAPE>;
+        jp_caps {
+            bindings = <&kp JP_CAPS>;
             key-positions = <16 10>;
             layers = <0>;
         };
@@ -88,8 +88,8 @@
             layers = <0>;
         };
 
-        jp_caps {
-            bindings = <&kp JP_CAPS>;
+        esc {
+            bindings = <&kp ESCAPE>;
             key-positions = <2 3>;
             layers = <0>;
         };
